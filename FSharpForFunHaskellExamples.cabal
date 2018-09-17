@@ -1,0 +1,15 @@
+name:                FSharpForFunHaskellExamples
+version:             0.1.0.0
+homepage:            https://github.com/jhb563/HaskellFromScratch#readme
+author:              Daniel Choi
+maintainer:          forhim185@gmail.com
+category:            Learning
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  build-depends: base >= 4.7 && < 5
+               , text
+  default-language:    Haskell2010
